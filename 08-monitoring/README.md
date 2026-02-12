@@ -27,7 +27,22 @@ Monitoring system resources is essential to ensure optimal performance, detect i
 
 ### Log Monitoring
 - `tail -f /var/log/syslog` – Live monitoring of system logs
-- `journalctl -f` – Live system logs for systemd-based distros
+- `journalctl -f` – Live system logs for systemd-based distro
+---
+
+#### Basic Navigation
+- `Arrow` – Move by one line  
+- `Space` – Move down one page  
+- `b` – Move up one page 
+- `g` – Go to the first line 
+- `G` – Go to the last line  
+- `100G` – Go to the 100th line  
+- `/string` – Search for the string from current position  
+- `n/N` – Go to the next or previous search match
+- `q` – Exit the logs
+
+---
+
 - `dmesg | tail` – View kernel logs
 
 ## CPU and Memory Monitoring
