@@ -30,7 +30,7 @@ Monitoring system resources is essential to ensure optimal performance, detect i
 - `journalctl -f` – Live system logs for systemd-based distro
 ---
 
-#### Basic Navigation
+#### Basic Navigation Journalctl
 - `Arrow` – Move by one line  
 - `Space` – Move down one page  
 - `b` – Move up one page 
